@@ -1,0 +1,100 @@
+  .faq-heading {
+    color: rgb(191, 191, 191);
+    /* text-decoration: underline; */
+    text-decoration-style: solid;
+    text-decoration-color: rgb(156, 155, 155);
+    position: relative;
+    padding: 15px;
+    
+  }
+
+  .faq-heading::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -5px;
+   
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300%;
+   
+    border-bottom: 1px solid rgb(194, 185, 185);
+    padding: 10px;
+    margin-bottom: 5px;
+  
+  }
+
+
+.btn {
+  /*   background-color: rgb(242, 232, 232); */
+    width: 100%;
+    text-align: center;
+
+
+}
+
+.btn-link {
+    color: rgb(233, 167, 46);
+    text-decoration: none;
+
+}
+
+.btn-link:hover {
+    color: gray;
+    outline: none;
+}
+
+.card-header {
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: none;
+
+}
+
+
+
+
+.btn:focus,
+.btn:active,
+.btn.active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.card-body {
+    display: none;
+    outline: none;
+    color: rgb(155, 155, 155);
+}
+
+.collapse.show .card-body {
+    display: block;
+}
+
+.accordion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+/* .mb-0 {
+    outline: none
+}
+
+div {
+    outline: none;
+} */

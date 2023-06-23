@@ -1,0 +1,120 @@
+body {
+
+
+    color: white;
+
+}
+
+.container {
+    height: 600px;
+
+}
+
+
+header {
+    background-color: #ff4300;
+    width: 100%;
+    height: 50px;
+
+    align-content: stretch;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    /*  align-content: stretch; */
+
+
+
+    flex-wrap: wrap;
+    font-size: 22px;
+    text-align: center;
+    line-height: 1.5;
+
+
+
+
+}
+
+.left {
+    background-color: green;
+    flex-basis: 20%;
+    height: 200px;
+    /*    box-sizing: border-box; */
+    /* align-content: stretch; */
+}
+
+
+.right {
+    background-color: #ffb7c2;
+
+    flex-basis: 20%;
+    height: 200px;
+
+}
+
+
+main {
+    background-color: #00c0ff;
+    /*  margin-left: 20%;
+    margin-right: 20%; */
+
+    height: 200px;
+    flex-basis: 60%;
+}
+
+
+footer {
+
+    background-color: #9470dc;
+    flex-basis: 100%;
+    text-align: center;
+    height: 50px;
+    font-size: 20px;
+
+
+    /*    bottom: 0;
+    left: 0; */
+
+}
+
+footer div {
+
+    padding: 4px;
+}
+
+@media screen and (max-width: 992px) {
+    .left {
+        flex-basis: 100%;
+        order: 3;
+
+    }
+
+    .right {
+
+        flex-basis: 25%;
+
+    }
+
+    main {
+        flex-basis: 75%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .left {
+        flex-basis: 100%;
+
+    }
+
+    .right {
+
+        flex-basis: 100%;
+    }
+
+    main {
+        flex-basis: 100%;
+    }
+
+}

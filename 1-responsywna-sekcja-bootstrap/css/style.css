@@ -1,0 +1,59 @@
+label {
+    color: rgb(180, 175, 175);
+    font-size: 25px;
+    margin-bottom: 5px;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+
+.social-link {
+
+    font-size: 5em;
+    border-radius: 50%;
+    background-color: rgb(233, 231, 228);
+    width: 150px;
+    height: 150px;
+
+
+}
+
+.item {
+
+    color: rgb(217, 144, 36);
+    block-size: 150px 150px;
+
+}
+
+
+
+
+/* Naglówek */
+
+h1 {
+    color: rgb(198, 191, 191);
+}
+.centered-heading {
+    text-align: center;
+}
+
+.centered-heading h1 {
+    display: inline-block;
+    position: relative;
+}
+
+.centered-heading h1::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -5px;
+   
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120%;
+   
+    border-bottom: 1px solid rgb(186, 182, 182);
+
+
+}
